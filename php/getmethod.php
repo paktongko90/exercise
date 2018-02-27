@@ -18,7 +18,7 @@
 			}
 		}
 	 ?>
-	<form action="index.php" method="GET">
+	<form action="getmethod.php" method="GET">
 		Day : <input type="text" name="day"><br>
 		Month : <input type="text" name="month"><br>
 		Year : <input type="text" name="year"><br>
