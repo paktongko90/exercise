@@ -1,18 +1,13 @@
 
-<table align="left" border="1" cellpadding="3" cellspacing="0">
-<?php 
-	//Write a PHP program to print out the multiplication table upto 6*6
-
-	$x = 6;
-
-	for($i = 1;$i<= $x;$i++){
-		echo "<tr>";
-		for($a = 1;$a <= $x;$a++){
-			echo '<td>'.$a * $i.'</td>';
+<table>
+	<?php 
+		for($x = 1;$x <= 6;$x++){
+			echo "<tr>";
+			for($y = 1;$y <=6;$y++){
+				$result = $x * $y;
+				echo "<td>$result<td>";
+			}
+			echo "</tr>";
 		}
-		echo "</tr>";
-	}
-
-	
- ?>
- </table>
+	 ?>
+</table>
